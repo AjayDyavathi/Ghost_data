@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# Description: Data_Ghost, concealing data into spaces and tabs making it impreceptable to human eyes.
+# Description: Data_Ghost, concealing data into spaces and tabs making it imperceptable to human eyes.
 # Author: Ajay Dyavathi
 # Github: Radical Ajay
 
