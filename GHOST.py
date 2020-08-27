@@ -11,12 +11,12 @@ class Ghost():
         self.output_format = output_format
 
     def ascii2bin(self, asc):
-        ''' Converting from ascii to bianry '''
+        ''' Converting ascii to bianry '''
 
         return ''.join('{:08b}'.format(ord(i)) for i in asc)
 
     def bin2ascii(self, bid):
-        ''' Converting from binary to ascii '''
+        ''' Converting binary to ascii '''
 
         return ''.join(chr(int(bid[i:i + 8], 2)) for i in range(0, len(bid), 8))
 
